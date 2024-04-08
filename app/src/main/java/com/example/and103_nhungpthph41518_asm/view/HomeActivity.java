@@ -88,9 +88,9 @@ public class HomeActivity extends AppCompatActivity implements FruitAdapter.Frui
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 CharSequence value = (CharSequence) parent.getAdapter().getItem(position);
                 Log.d("zzzzzz", "onItemSelected: "+value.toString());
-                if (value.toString().equals("Ascending")){
+                if (value.toString().equals("Tăng dần")){
                     sort = "1";
-                } else if (value.toString().equals("Decrease")) {
+                } else if (value.toString().equals("Giảm dần")) {
                     sort="-1";
                 }
             }

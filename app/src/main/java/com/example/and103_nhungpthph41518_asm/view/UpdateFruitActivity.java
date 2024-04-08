@@ -166,7 +166,7 @@ public class UpdateFruitActivity extends AppCompatActivity {
 
         @Override
         public void onFailure(Call<Response<Fruit>> call, Throwable t) {
-            Toast.makeText(UpdateFruitActivity.this, "Sửa sai rồi thằng ngu", Toast.LENGTH_SHORT).show();
+            Toast.makeText(UpdateFruitActivity.this, "Sửa sai rồi", Toast.LENGTH_SHORT).show();
             onBackPressed();
             Log.e("zzzzzzzzzz", "onFailure: " + t.getMessage());
         }
