@@ -1,8 +1,7 @@
-package com.example.and103_thanghtph31577_lab5.view;
+package com.example.and103_nhungpthph41518_asm.view;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,16 +13,13 @@ import androidx.activity.result.ActivityResultCallback;
 import androidx.activity.result.ActivityResultLauncher;
 import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.content.ContextCompat;
 
 import com.bumptech.glide.Glide;
-import com.bumptech.glide.load.engine.DiskCacheStrategy;
-import com.example.and103_thanghtph31577_lab5.R;
-import com.example.and103_thanghtph31577_lab5.databinding.ActivityRegisterBinding;
-import com.example.and103_thanghtph31577_lab5.model.Response;
-import com.example.and103_thanghtph31577_lab5.model.User;
-import com.example.and103_thanghtph31577_lab5.services.HttpRequest;
+import com.example.and103_nhungpthph41518_asm.R;
+import com.example.and103_nhungpthph41518_asm.databinding.ActivityRegisterBinding;
+import com.example.and103_nhungpthph41518_asm.model.Response;
+import com.example.and103_nhungpthph41518_asm.model.User;
+import com.example.and103_nhungpthph41518_asm.services.HttpRequest;
 
 import java.io.File;
 import java.io.FileNotFoundException;

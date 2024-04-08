@@ -1,4 +1,4 @@
-package com.example.and103_thanghtph31577_lab5.view;
+package com.example.and103_nhungpthph41518_asm.view;
 
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -15,13 +15,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.widget.NestedScrollView;
 
-import com.example.and103_thanghtph31577_lab5.R;
-import com.example.and103_thanghtph31577_lab5.adapter.FruitAdapter;
-import com.example.and103_thanghtph31577_lab5.databinding.ActivityHomeBinding;
-import com.example.and103_thanghtph31577_lab5.model.Fruit;
-import com.example.and103_thanghtph31577_lab5.model.Page;
-import com.example.and103_thanghtph31577_lab5.model.Response;
-import com.example.and103_thanghtph31577_lab5.services.HttpRequest;
+import com.example.and103_nhungpthph41518_asm.R;
+import com.example.and103_nhungpthph41518_asm.adapter.FruitAdapter;
+import com.example.and103_nhungpthph41518_asm.databinding.ActivityHomeBinding;
+import com.example.and103_nhungpthph41518_asm.model.Fruit;
+import com.example.and103_nhungpthph41518_asm.model.Page;
+import com.example.and103_nhungpthph41518_asm.model.Response;
+import com.example.and103_nhungpthph41518_asm.services.HttpRequest;
 
 import java.util.ArrayList;
 import java.util.HashMap;

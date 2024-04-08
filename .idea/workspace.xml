@@ -7,17 +7,57 @@
     <layouts>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_fruit.xml">
         <config>
-          <theme>@style/Theme.AND103_thanghtph31577_lab5</theme>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_fruit_detail.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
         <config>
-          <theme>@style/Theme.AND103_thanghtph31577_lab5</theme>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_update_fruit.xml">
         <config>
-          <theme>@style/Theme.AND103_thanghtph31577_lab5</theme>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_add.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_distributor.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_fruit.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_image.xml">
+        <config>
+          <theme>@style/Theme.AND103_nhungpthph41518_lab6</theme>
         </config>
       </layout>
     </layouts>
@@ -26,7 +66,45 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dffd708b-963f-4181-b51f-e3cf77e676ff" name="Changes" comment="" />
+    <list default="true" id="dffd708b-963f-4181-b51f-e3cf77e676ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/khung.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/khungbtn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/and103_thanghtph31577_lab5/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/and103_nhungpthph41518_asm/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/adapter/DistributorAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/adapter/DistributorAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/adapter/FruitAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/adapter/FruitAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/adapter/ImageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/adapter/ImageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/model/Distributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/model/Distributor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/model/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/model/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/model/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/model/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/model/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/model/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/services/ApiServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/services/ApiServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/services/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/services/HttpRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/view/AddFruitActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/view/AddFruitActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/view/FruitDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/view/FruitDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/view/HomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/view/HomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/view/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/view/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/view/RegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/view/RegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/and103_thanghtph31577_lab5/view/UpdateFruitActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/and103_nhungpthph41518_asm/view/UpdateFruitActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_fruit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_fruit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fruit_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fruit_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_update_fruit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_update_fruit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_fruit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_fruit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/and103_thanghtph31577_lab5/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/and103_nhungpthph41518_asm/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,8 +141,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -82,12 +164,12 @@
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/AND103/BAITAP/AND103_Lab6-master&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/AND103/ASM/ASM_PH41518&quot;
   }
 }</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="AND103_nhungpthph41518_lab6.app.main" />
+      <module name="AND103_nhungpthph41518_asm.app.main" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />

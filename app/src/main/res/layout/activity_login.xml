@@ -13,7 +13,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="@android:dimen/app_icon_size"
-        android:background="#FFC107"
+        android:background="#ff6347"
         android:layout_marginBottom="20dp"
         android:gravity="start|center_vertical"
 
@@ -32,9 +32,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"
-        android:hint="username"
+        android:hint="Username"
         android:layout_marginTop="100dp"
         app:hintAnimationEnabled="true"
+        android:background="@drawable/khung"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/ed_username"
@@ -50,6 +51,7 @@
         android:hint="Password"
         android:layout_marginTop="20dp"
         app:hintAnimationEnabled="true"
+        android:background="@drawable/khung"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/ed_password"
@@ -67,15 +69,15 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_login"
         android:text="Login"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="@color/cardview_dark_background"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/khungbtn"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bạn chưa có tài khoản? đăng ký ngay"
-        android:textColor="@color/design_default_color_primary_variant"
-        android:layout_marginTop="100dp"
+        android:text="Bạn chưa có tài khoản? Đăng ký ngay"
+        android:textColor="#ff6347"
+        android:layout_marginTop="30dp"
         />
 
 

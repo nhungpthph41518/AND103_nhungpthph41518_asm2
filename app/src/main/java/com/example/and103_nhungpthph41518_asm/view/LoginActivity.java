@@ -1,4 +1,4 @@
-package com.example.and103_thanghtph31577_lab5.view;
+package com.example.and103_nhungpthph41518_asm.view;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -8,11 +8,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.and103_thanghtph31577_lab5.MainActivity;
-import  com.example.and103_thanghtph31577_lab5.databinding.ActivityLoginBinding;
-import com.example.and103_thanghtph31577_lab5.model.Response;
-import com.example.and103_thanghtph31577_lab5.model.User;
-import com.example.and103_thanghtph31577_lab5.services.HttpRequest;
+import  com.example.and103_nhungpthph41518_asm.databinding.ActivityLoginBinding;
+import com.example.and103_nhungpthph41518_asm.model.Response;
+import com.example.and103_nhungpthph41518_asm.model.User;
+import com.example.and103_nhungpthph41518_asm.services.HttpRequest;
 
 import retrofit2.Call;
 import retrofit2.Callback;

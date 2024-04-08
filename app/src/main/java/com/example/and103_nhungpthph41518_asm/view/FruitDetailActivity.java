@@ -1,20 +1,15 @@
-package com.example.and103_thanghtph31577_lab5.view;
+package com.example.and103_nhungpthph41518_asm.view;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
-import com.bumptech.glide.Glide;
-import com.example.and103_thanghtph31577_lab5.R;
-import com.example.and103_thanghtph31577_lab5.adapter.ImageAdapter;
-import com.example.and103_thanghtph31577_lab5.databinding.ActivityFruitDetailBinding;
-import com.example.and103_thanghtph31577_lab5.model.Fruit;
+import com.example.and103_nhungpthph41518_asm.R;
+import com.example.and103_nhungpthph41518_asm.adapter.ImageAdapter;
+import com.example.and103_nhungpthph41518_asm.databinding.ActivityFruitDetailBinding;
+import com.example.and103_nhungpthph41518_asm.model.Fruit;
 
 public class FruitDetailActivity extends AppCompatActivity {
     ActivityFruitDetailBinding binding;

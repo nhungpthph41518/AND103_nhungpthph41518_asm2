@@ -1,4 +1,4 @@
-package com.example.and103_thanghtph31577_lab5.adapter;
+package com.example.and103_nhungpthph41518_asm.adapter;
 
 import android.content.Context;
 import android.util.Log;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.and103_thanghtph31577_lab5.R;
-import com.example.and103_thanghtph31577_lab5.databinding.ItemFruitBinding;
-import com.example.and103_thanghtph31577_lab5.model.Fruit;
+import com.example.and103_nhungpthph41518_asm.R;
+import com.example.and103_nhungpthph41518_asm.databinding.ItemFruitBinding;
+import com.example.and103_nhungpthph41518_asm.model.Fruit;
 
 import java.util.ArrayList;
 

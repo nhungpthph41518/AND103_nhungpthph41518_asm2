@@ -18,8 +18,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="@android:dimen/app_icon_size"
-            android:background="#FFC107"
-            android:layout_marginBottom="20dp"
+            android:background="#ff6347"
             android:gravity="start|center_vertical"
 
             >
@@ -57,6 +56,7 @@
             android:hint="Name"
             android:layout_marginTop="20dp"
             app:hintAnimationEnabled="true"
+            android:background="@drawable/khung"
             >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_name"
@@ -72,6 +72,7 @@
             android:layout_marginHorizontal="20dp"
             android:hint="quantity"
             app:hintAnimationEnabled="true"
+            android:background="@drawable/khung"
             >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_quantity"
@@ -87,11 +88,13 @@
             android:hint="Price"
             android:layout_marginTop="20dp"
             app:hintAnimationEnabled="true"
+            android:background="@drawable/khung"
             >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_price"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,6 +105,7 @@
             android:hint="Status"
             android:layout_marginTop="20dp"
             app:hintAnimationEnabled="true"
+            android:background="@drawable/khung"
             >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_status"
@@ -120,8 +124,9 @@
         <Spinner
             android:id="@+id/sp_distributor"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginHorizontal="20dp"
+            android:background="@drawable/khung"
             />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -131,6 +136,7 @@
             android:hint="Description"
             android:layout_marginTop="20dp"
             app:hintAnimationEnabled="true"
+            android:background="@drawable/khung"
             >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_description"
@@ -146,7 +152,7 @@
             android:id="@+id/btn_register"
             android:text="Submit"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@color/cardview_dark_background"
+            android:background="@drawable/khungbtn"
             android:layout_marginBottom="20dp"
             />
 

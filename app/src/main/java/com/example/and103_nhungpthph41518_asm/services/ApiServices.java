@@ -1,10 +1,10 @@
-package com.example.and103_thanghtph31577_lab5.services;
+package com.example.and103_nhungpthph41518_asm.services;
 
-import com.example.and103_thanghtph31577_lab5.model.Distributor;
-import com.example.and103_thanghtph31577_lab5.model.Fruit;
-import com.example.and103_thanghtph31577_lab5.model.Page;
-import com.example.and103_thanghtph31577_lab5.model.Response;
-import com.example.and103_thanghtph31577_lab5.model.User;
+import com.example.and103_nhungpthph41518_asm.model.Distributor;
+import com.example.and103_nhungpthph41518_asm.model.Fruit;
+import com.example.and103_nhungpthph41518_asm.model.Page;
+import com.example.and103_nhungpthph41518_asm.model.Response;
+import com.example.and103_nhungpthph41518_asm.model.User;
 
 import java.util.ArrayList;
 import java.util.Map;

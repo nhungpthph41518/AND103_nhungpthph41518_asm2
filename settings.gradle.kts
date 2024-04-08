@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "AND103_nhungpthph41518_lab6"
+rootProject.name = "AND103_nhungpthph41518_asm"
 include(":app")

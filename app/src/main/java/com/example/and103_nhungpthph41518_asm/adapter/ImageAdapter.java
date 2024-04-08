@@ -1,4 +1,4 @@
-package com.example.and103_thanghtph31577_lab5.adapter;
+package com.example.and103_nhungpthph41518_asm.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.and103_thanghtph31577_lab5.R;
-import com.example.and103_thanghtph31577_lab5.databinding.ItemImageBinding;
+import com.example.and103_nhungpthph41518_asm.R;
+import com.example.and103_nhungpthph41518_asm.databinding.ItemImageBinding;
 
 import java.util.ArrayList;
 

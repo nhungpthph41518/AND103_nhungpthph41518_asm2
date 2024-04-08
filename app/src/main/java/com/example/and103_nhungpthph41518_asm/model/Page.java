@@ -1,4 +1,4 @@
-package com.example.and103_thanghtph31577_lab5.model;
+package com.example.and103_nhungpthph41518_asm.model;
 
 public class Page<T> {
     private T data;

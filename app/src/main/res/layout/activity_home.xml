@@ -15,19 +15,16 @@
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginTop="10dp"
             android:layout_marginHorizontal="20dp"
             app:hintAnimationEnabled="true"
-
-
 
             >
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_search_name"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:drawableStart="@drawable/search_icon"
+                android:background="@drawable/khung"
                 android:drawablePadding="8dp"
                 android:hint="Tìm kiếm theo tên sản phẩm"
                 app:hintAnimationEnabled="true"
@@ -49,8 +46,9 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/ed_search_money"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:drawableStart="@drawable/ic_money"
+                android:background="@drawable/khung"
                 android:drawablePadding="8dp"
                 android:hint="Giá lớn hơn hoặc bằng"
                 app:hintAnimationEnabled="true"
@@ -62,19 +60,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="20dp"
             >
             <Spinner
                 android:id="@+id/spinner"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:layout_weight="1"
+                android:background="@drawable/khung"
                 />
             <Button
                 android:id="@+id/btn_loc"
                 android:layout_marginStart="10dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="40dp"
                 android:text="Lọc"
+                android:background="@drawable/khung"
                 />
 
         </LinearLayout>
@@ -95,6 +96,7 @@
                 android:orientation="vertical">
 
                 <androidx.recyclerview.widget.RecyclerView
+
                     android:id="@+id/rcv_fruit"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -124,7 +126,7 @@
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
         android:src="@drawable/ic_add"
-        android:backgroundTint="#FFC107"
+        android:backgroundTint="#ff6347"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
